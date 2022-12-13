@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+@font-face {
+    font-family: 'QuinchoScript';
+    src: url('../fonts/QuinchoScript_PersonalUse.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Questrial';
+    src: url('../fonts/Questrial-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+nav {
+    height: 60px;
+    width: 100%;
+    font-family: QuinchoScript;
+    font-size: 24px;
+    background-image: url("../img/fondo.jpg");
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: baseline;
+    justify-content: space-evenly;
+    list-style-type:none;
+    color: #FFFFFF;
+}
+nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#logo {
+    font-size: 48px;
+}
+.tituloCentral4 {
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    font-family: QuinchoScript;
+    color: #6C0404;
+    font-size: 28px;
+}
+.carousel {
+    display: flex;
+    justify-content: center;
+}
+.imagenCarousel {
+    height: 300px;
+    width: 90%;
+    border-radius: 10px;
+}
+.imagenCarouselProductos {
+    height: 300px;
+    width: 90%;
+    background: url(../img/productos1.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.imagenCarouselServicios {
+    height: 300px;
+    width: 90%;
+    background: url(../img/servicios1.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.imagenCarousel3 {
+    height: 300px;
+    width: 90%;
+    background: url(../img/1.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.cajaCentral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px 0 20px 0;
+}
+.cajaCentralBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+.cajaCentralBox h3 {
+    font-size: 24px;
+    font-family: QuinchoScript;
+    color: #6C0404;
+}
+.cajaCentralBox p {
+    font-size: 14px;
+    font-family: Questrial;
+}
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.productoCaja {
+    font-family: QuinchoScript;
+    width: 280px;
+    height: 400px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: #6C0404;
+    color: #FFFFFF;
+
+}
+.productoImagen {
+    width: 100%;
+    height: 305px;
+}
+.productoTitulo {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.productoTexto {
+    padding: 10px 10px 0 10px;
+    text-align: center;
+}
+.productoLista {
+    display: flex;
+    margin: 5px 20px;
+    flex-direction: column;
+    font-size: 12px;
+    font-family: Questrial;
+}
+.nosotros {
+    display: flex;
+    justify-content: center;
+    margin: 20px 10% 20px 10%;
+    color: #6C0404;
+}
+.nosotrosTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 50%;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Questrial;
+}
+.nosotrosTexto h3 {
+    font-family: QuinchoScript;
+    font-size: 28px;
+}
+.nosotrosImagen {
+    border-radius: 10px;
+    height: 500px;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Questrial;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #D9D9D9;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.elementoForm {
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px 5px 5px;
+}
+.elementoForm input {
+    margin: 0 0 0 5px;
+}
+*::-webkit-input-placeholder {
+    font-size: 14px;
+    font-family: Questrial;
+}
+button {
+    align-self: center;
+    width: 30%;
+    height: 20px;
+    font-size: 14px;
+    font-family: Questrial;
+    background: #6C0404;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 3px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    height: 80px;
+    background-image: url("../img/fondo.jpg");
+}
+footer hr {
+    margin-bottom: 5px;
+}
+.footerCopyright {
+    font-size: 14px;
+    font-family: Questrial;
+}
