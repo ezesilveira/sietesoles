@@ -1,49 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sietesoles</title>
     <link rel="icon" href="./img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 <body>
-    <nav>
-        <ul>
-        <i class="fa-solid fa-magnifying-glass"></i>
-		<li><a href="servicios.html">servicios</a></li>
-		<li><a href="productos.html">productos</a></li>
-		<li><a id="logo" href="index.html">sietesoles</a></l>
-		<li><a href="#">nosotros</a></li>
-		<li><a href="contacto.html">contacto</a></li>
-        <i class="fa-brands fa-instagram"></i>  <i class="fa-brands fa-facebook"></i>
-	 </ul>
-    </nav>
-    <header>
-        <h4 class="tituloCentral4">pasteleria - reposteria artesanal</h4>
-        <div class="carousel">
-            <div class="imagenCarousel3"></div>
-        </div>
-    </header>
-    <section>
-        <div class="nosotros">
-            <div class="nosotrosTexto">
-                <h3>Acerca de Nosotros</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum metus cursus, ultricies enim eget, condimentum arcu. Nam id faucibus est. Etiam et diam scelerisque, consequat eros vel, volutpat odio. Suspendisse venenatis ante sed justo mattis volutpat. Interdum et malesuada fames ac ante.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum metus cursus, ultricies enim eget, condimentum arcu. Nam id faucibus est. Etiam et diam scelerisque, consequat eros vel, volutpat odio. Suspendisse venenatis ante sed justo mattis volutpat. Interdum et malesuada fames ac ante.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum metus cursus, ultricies enim eget, condimentum arcu. Nam id faucibus est. Etiam et diam scelerisque, consequat eros vel, volutpat odio. Suspendisse venenatis ante sed justo mattis volutpat. Interdum et malesuada fames ac ante.</p>
+<header>
+    <div class="container-fluid contenedorbarra" >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid barra">
+                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">productos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mx-auto order-0">
+                    <a class="navbar-brand mx-auto logo" href="index.html">sietesoles</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse2">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/profile.php?id=100063595781822" class="nav-link">
+                            <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/sietesolestdf/" class="nav-link">
+                            <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <img class="nosotrosImagen" src="img/nosotros.jpg" alt="">  
+        </nav>
+    </div>
+</header>
+<section>
+    <div class="container d-flex nosotros py-3">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              style="
+                height: 100px;
+                width: 100%;
+                height: auto;
+              "
+              class="img-responsive"
+              src="img/nosotros.jpg"
+              alt="Nosotros"
+            />
+          </div>
+          <div class="col-md-4 nosotrosTexto">
+            <h4>Acerca de Nosotros</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum metus cursus, ultricies enim eget, condimentum arcu. Nam id faucibus est. Etiam et diam scelerisque, consequat eros vel, volutpat odio. Suspendisse venenatis ante sed justo mattis volutpat. Interdum et malesuada fames ac ante.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum metus cursus, ultricies enim eget, condimentum arcu. Nam id faucibus est. Etiam et diam scelerisque, consequat eros vel, volutpat odio. Suspendisse venenatis ante sed justo mattis volutpat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="p-5 text-center bg-image rounded-3 my-3 mx-3" style="
+        background-image: url('img/nosotros.jpg');
+        height: 300px;
+        ">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3">Acerca de Nosotros</h1>
+                    <h4 class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum metus cursus, ultricies enim eget, condimentum arcu. Nam id faucibus est. Etiam et diam scelerisque, consequat eros vel, volutpat odio. Suspendisse venenatis ante sed justo mattis volutpat. Interdum et malesuada fames ac ante.</h4>
+                    <a class="btn btn-outline-light btn-lg" href="#!" role="button">En</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</section>
+<footer class="text-center text-lg-start bg-light text-muted footerx">
+    <section class="d-flex justify-content-center p-2 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+        <span>Seguimos conectados en nuestras redes sociales:</span>
+        </div>
+        <div>
+        <a href="https://www.facebook.com/profile.php?id=100063595781822" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/sietesolestdf/" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+        </a>
         </div>
     </section>
-<footer>
-    <hr width="200">
-    <p class="footerRedes" ><i class="fa-brands fa-instagram"></i>  <i class="fa-brands fa-facebook"></i></p>
-    <p class="footerCopyright">copyright © 2022 sietesoles</p>
+    <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.05);">
+        copyright © 2022 sietesoles
+    </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
 <!-- Edgardo Ezequiel Silveira 2022 CoderHouse -->

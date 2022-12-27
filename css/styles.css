@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-}
+} */
 @font-face {
     font-family: 'QuinchoScript';
     src: url('../fonts/QuinchoScript_PersonalUse.ttf') format('truetype');
@@ -15,28 +15,18 @@
     font-style: normal;
     font-weight: normal;
   }
-nav {
-    height: 60px;
-    width: 100%;
+.barra {
     font-family: QuinchoScript;
     font-size: 24px;
     background-image: url("../img/fondo.jpg");
 }
-nav ul {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: baseline;
-    justify-content: space-evenly;
-    list-style-type:none;
-    color: #FFFFFF;
-}
-nav li a {
+.barra li a {
     text-decoration: none;
     color: #FFFFFF;
 }
-#logo {
+.logo {
     font-size: 48px;
+    color: #FFFFFF;
 }
 .tituloCentral4 {
     margin: 10px 10px 10px 10px;
@@ -46,33 +36,17 @@ nav li a {
     color: #6C0404;
     font-size: 28px;
 }
-.carousel {
-    display: flex;
-    justify-content: center;
-}
-.imagenCarousel {
-    height: 300px;
-    width: 90%;
-    border-radius: 10px;
-}
-.imagenCarouselProductos {
+.jumbotronProductos {
     height: 300px;
     width: 90%;
     background: url(../img/productos1.jpg) no-repeat center center;
     background-size: cover;
     border-radius: 10px;
 }
-.imagenCarouselServicios {
+.jumbotronServicios {
     height: 300px;
-    width: 90%;
     background: url(../img/servicios1.jpg) no-repeat center center;
-    background-size: cover;
-    border-radius: 10px;
-}
-.imagenCarousel3 {
-    height: 300px;
     width: 90%;
-    background: url(../img/1.jpg) no-repeat center center;
     background-size: cover;
     border-radius: 10px;
 }
@@ -84,12 +58,6 @@ nav li a {
     margin: 20px 0 20px 0;
 }
 .cajaCentralBox {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    width: 500px;
-    border-radius: 10px;
     background: #D9D9D9;
 }
 .cajaCentralBox h3 {
@@ -100,49 +68,40 @@ nav li a {
 .cajaCentralBox p {
     font-size: 14px;
     font-family: Questrial;
+    color: black;
 }
-.productos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.tarjetaImagen {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
 }
-.productoCaja {
-    font-family: QuinchoScript;
-    width: 280px;
-    height: 400px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+.tarjetaCaja {
     background: #6C0404;
     color: #FFFFFF;
-
-}
-.productoImagen {
-    width: 100%;
-    height: 305px;
 }
 .productoTitulo {
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-}
-.productoTexto {
-    padding: 10px 10px 0 10px;
-    text-align: center;
+    font-size: 18px;
+    font-family: QuinchoScript;
 }
 .productoLista {
-    display: flex;
-    margin: 5px 20px;
-    flex-direction: column;
     font-size: 12px;
     font-family: Questrial;
 }
 .nosotros {
-    display: flex;
-    justify-content: center;
+    background: #D9D9D9;
     margin: 20px 10% 20px 10%;
-    color: #6C0404;
+    
+    border-radius: 10px;
 }
-.nosotrosTexto {
+.nosotrosTexto h4 {
+    color: #6C0404;
+    font-family: QuinchoScript;
+}
+.nosotrosTexto p {
+    font-size: 14px !important;
+    font-family: Questrial;
+}
+/* .nosotrosTexto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,58 +121,30 @@ nav li a {
 .nosotrosImagen {
     border-radius: 10px;
     height: 500px;
-}
+} */
 .formulario {
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
     font-family: Questrial;
-}
-form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     background: #D9D9D9;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
 }
-.elementoForm {
-    display: flex;
-    justify-content: center;
-    margin: 5px 5px 5px 5px;
-}
-.elementoForm input {
-    margin: 0 0 0 5px;
-}
 *::-webkit-input-placeholder {
     font-size: 14px;
     font-family: Questrial;
+    color: #6C0404;
 }
-button {
-    align-self: center;
-    width: 30%;
-    height: 20px;
-    font-size: 14px;
-    font-family: Questrial;
+.boton {
     background: #6C0404;
     color: #FFFFFF;
     border: 0px;
     border-radius: 3px;
 }
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFF;
-    margin-top: 20px;
-    height: 80px;
+.botonNav {
+    color: #FFFFFF !important;
+    border-color: white !important;
+}
+.footerx {
+    font-family: Questrial !important;
+    color: #FFFFFF !important;
     background-image: url("../img/fondo.jpg");
-}
-footer hr {
-    margin-bottom: 5px;
-}
-.footerCopyright {
-    font-size: 14px;
-    font-family: Questrial;
 }
