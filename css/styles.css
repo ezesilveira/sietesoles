@@ -120,6 +120,10 @@
   padding: 20px 20px 20px 20px;
 }
 
+.ingresos {
+  width: 95%;
+}
+
 .boton {
   background: #6C0404;
   color: #FFFFFF;
