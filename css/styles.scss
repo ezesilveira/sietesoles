@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+$color1: #6C0404;
+$color2: #FFFFFF;
+$color3: #D9D9D9;
+
+@font-face {
+    font-family: 'QuinchoScript';
+    src: url('../fonts/QuinchoScript_PersonalUse.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Questrial';
+    src: url('../fonts/Questrial-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+*::-webkit-input-placeholder {
+    font-size: 14px;
+    font-family: Questrial;
+    color: $color1;
+}
+.barra {
+    font-family: QuinchoScript;
+    font-size: 24px;
+    background-image: url("../img/fondo.jpg");
+    li a {
+        text-decoration: none;
+        color: $color2;
+    }
+}
+.logo {
+    font-size: 48px;
+    color: $color2;
+}
+.tituloCentral4 {
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    font-family: QuinchoScript;
+    color: $color1;
+    font-size: 28px;
+}
+.jumbotronProductos {
+    height: 300px;
+    width: 90%;
+    background: url(../img/productos1.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.jumbotronServicios {
+    height: 300px;
+    background: url(../img/servicios1.jpg) no-repeat center center;
+    width: 90%;
+    background-size: cover;
+    border-radius: 10px;
+}
+.cajaCentralBox {
+    background: $color3;
+    h3 {
+        font-size: 24px;
+        font-family: QuinchoScript;
+        color: $color1;
+    }
+    p {
+        font-size: 14px;
+        font-family: Questrial;
+        color: black;
+    }
+}
+.tarjetaImagen {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+.tarjetaCaja {
+    background: $color1;
+    color: $color2;
+}
+.productoTitulo {
+    font-size: 18px;
+    font-family: QuinchoScript;
+}
+.productoLista {
+    font-size: 12px;
+    font-family: Questrial;
+}
+.nosotros {
+    background: $color3;
+    margin: 20px 10% 20px 10%;
+    
+    border-radius: 10px;
+}
+.nosotrosTexto {
+    h4 {color: $color1;
+        font-family: QuinchoScript;
+    }
+    p {
+        font-size: 14px !important;
+        font-family: Questrial;
+    }
+}
+.formulario {
+    font-family: Questrial;
+    background: $color3;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.boton {
+    background: $color1;
+    color: $color2;
+    border: 0px;
+    border-radius: 3px;
+}
+.footerx {
+    font-family: Questrial !important;
+    color: $color2 !important;
+    background-image: url("../img/fondo.jpg");
+}
+/* Edgardo Ezequiel Silveira 2023 CoderHouse */
