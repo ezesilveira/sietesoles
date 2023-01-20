@@ -1,4 +1,4 @@
-* {
+. {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
@@ -79,8 +79,7 @@
 .tarjetaImagen {
   width: 100%;
   height: 30vw;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .tarjetaCaja {
