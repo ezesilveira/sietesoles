@@ -1,4 +1,4 @@
-. {
+body {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
@@ -46,6 +46,10 @@
   font-size: 28px;
 }
 
+.letraNegra {
+  color: #000000;
+}
+
 .jumbotronProductos {
   height: 300px;
   width: 90%;
@@ -78,8 +82,9 @@
 
 .tarjetaImagen {
   width: 100%;
-  height: 30vw;
-  object-fit: cover;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .tarjetaCaja {
@@ -134,6 +139,28 @@
   font-family: Questrial !important;
   color: #FFFFFF !important;
   background-image: url("../img/fondo.jpg");
+}
+
+#whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+svg {
+  width: 50px;
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.4));
+}
+
+/* circle {
+    fill: #FFFFFF;
+} */
+path {
+  fill: #25d366;
+}
+
+.navbar-toggler-icon {
+  vertical-align: middle !important;
 }
 
 /* Edgardo Ezequiel Silveira 2023 CoderHouse *//*# sourceMappingURL=styles.css.map */
